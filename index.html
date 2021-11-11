@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login page</title>
+        <meta name="description" content="Source code generated using layoutit.com">
+        <meta name="author" content="LayoutIt!">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid bg">
+            <div class="row">
+                <div class="col-lg-7 col-md-7">
+                    <div class="logo">
+                        <img src="images/logo-black.png" alt="logo" class="img">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5">
+                    <p class="close-btn">
+                        &times;
+                    </p>
+                    <p class="close-text">Close</p>
+                </div>
+                <div class="col-md-12">
+                    <section class="contact-us-section">
+                        <div class="contact-us-right">
+                            <div class="contact-us-form-holder">
+                                <p class="heading">Welcome Back!</p>
+                                <div class="contact-us-accounts">
+                                    <a class="contact-us-social-media-buttons" href="/social-auth/login/google-oauth2/?next=">
+                                        <img id="google" src="images/google.svg" alt="socail">
+                                        <p class="icons-text">Google</p>
+                                    </a>
+                                    <a class="contact-us-social-media-buttons" href="/social-auth/login/facebook/?next=">
+                                        <img id="facebook" src="images/facebook.svg" alt="socail">
+                                        <p class="icons-text">Facebook</p>
+                                    </a>
+                                    <a class="contact-us-social-media-buttons" href="/social-auth/login/linkedin-oauth2/?next=">
+                                        <img id="linkedin" src="images/linkedin.svg" alt="socail">
+                                        <p class="icons-text">Linkedin</p>
+                                    </a>
+                                </div>
+                                <div class="contact-us-or-line">
+                                    <h5 class="divide">
+                                        <span>or</span>
+                                    </h5>
+                                </div>
+                                <form action="{% url 'register' %}" method="POST">
+                                    <label class="lable">Username or Email Address</label>
+                                    <input
+                                        type="text/email"
+                                        placeholder="Username or Email Address"
+                                        name="username"
+                                        required
+                                    >
+                                    <label class="lab">
+                                        Password
+                                        <span>
+                                            <a id="forget_pass" href="forgt.html">Forgot your password?</a>
+                                        </span>
+                                    </label>
+                                    <input
+                                        type="password"
+                                        placeholder="Password"
+                                        name="password"
+                                        required
+                                    >
+                                    <button class="button" type="submit">Login</button>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-6">
+                                            <label class="remember-text">Remember Me</label>
+                                            <input
+                                                type="checkbox"
+                                                id="remember"
+                                                name="rememberme"
+                                                value="Remember me"
+                                            >
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <a id="reset_pass" href="reset.html">Need Help?</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-12">
+                    <section class="contact-us-section">
+                        <div class="contact-us-right contact-us-right-bottom">
+                            <div class="contact-us-form-holder">
+                                <div class="contact-us-footer">
+                                    <p>
+                                        Or
+                                        <a href="{% url 'signup' %}">Click Here</a>
+                                        to create a free account
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
