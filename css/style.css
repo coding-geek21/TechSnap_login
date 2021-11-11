@@ -28,7 +28,7 @@ body {
 .contact-us-section {
   width: 100%;
   max-height: auto;
-  margin-bottom: 2%;
+  margin-bottom: 20%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -231,7 +231,13 @@ body {
     margin-bottom: 5%;
   }
   input[type="checkbox"] {
-    margin-top: -10%;
+    margin-top: -8%;
+  }
+  #forget_pass {
+    text-decoration: none;
+    margin-left: 20%;
+    color: black;
+    font-size: 14px;
   }
   .logo {
     text-align: center;
