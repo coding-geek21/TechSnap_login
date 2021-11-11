@@ -28,7 +28,7 @@ body {
 .contact-us-section {
   width: 100%;
   max-height: auto;
-  margin-bottom: 20%;
+  margin-bottom: 2%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -42,6 +42,11 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+
+.contact-us-right-bottom {
+  margin-bottom: 4%;
+}
+
 .contact-us-form-holder {
   background-color: #ffffff;
   border: 1px solid #e5e1da;
@@ -325,7 +330,7 @@ input[type="checkbox"] {
   text-decoration: none;
   margin-left: 40%;
   color: black;
-  font-size: 14px;
+  font-size: 16px;
 }
 .terms {
   font-size: 12px;
