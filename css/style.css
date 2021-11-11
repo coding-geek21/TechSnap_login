@@ -231,11 +231,11 @@ body {
     margin-bottom: 5%;
   }
   input[type="checkbox"] {
-    margin-top: -8%;
+    margin-top: -5%;
   }
   #forget_pass {
     text-decoration: none;
-    margin-left: 20%;
+    margin-left: 10%;
     color: black;
     font-size: 14px;
   }
