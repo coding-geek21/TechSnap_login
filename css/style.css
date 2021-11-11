@@ -235,9 +235,7 @@ body {
   }
   #forget_pass {
     text-decoration: none;
-    margin-left: 10%;
-    color: black;
-    font-size: 14px;
+    float: right;
   }
   .logo {
     text-align: center;
