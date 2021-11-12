@@ -178,9 +178,6 @@ body {
     font-size: 70px;
     cursor: pointer;
   }
-  #forget_pass {
-    float: right;
-  }
 }
 
 @media (max-width: 900px) {
@@ -253,7 +250,7 @@ body {
     margin-top: 8%;
   }
   .close-btn {
-    font-size: 32px;
+    font-size: 40px;
     margin-top: -26%;
   }
 
@@ -310,28 +307,10 @@ input[type="password"] {
   margin-bottom: 4%;
 }
 
-input[type="checkbox"] {
-  width: 8%;
-  margin-top: -18%;
-  float: left !important;
-  font-size: 18px;
-  margin-right: 180px;
-}
-
-#reset_pass {
-  text-align: right !important;
-  text-decoration: none;
-}
-
-.remember-text {
-  font-size: 18px;
-  text-align: left;
-  margin-left: 10%;
-}
-
 #forget_pass {
   text-decoration: none;
   color: black;
+  margin-bottom: 3%;
   font-size: 16px;
 }
 .terms {
